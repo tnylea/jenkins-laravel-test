@@ -2,7 +2,7 @@ node {
    // Install dependencies
    stage 'Install dependencies'
    // Run Composer
-   sh 'composer install'
+   sh 'composer.phar install'
    // Test stage
    stage 'Test'
    // Run the tests
